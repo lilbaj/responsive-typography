@@ -20,7 +20,7 @@ html {
 
 article {
   max-width: 43em;
-  padding-left: .5rem;
+  padding: 0 .5rem;
 }
 
 article h1 {
@@ -55,4 +55,17 @@ blockquote {
 
 article ol {
   padding-left: 1rem;
+}
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.5;
+  }
+
+  blockquote {
+    padding-left: 3em;
+    max-width: 26em;
+  }
 }
