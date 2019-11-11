@@ -10,7 +10,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-
+  font-family: 'Crimson Text', serif;
   color: #222;
 }
 
@@ -20,10 +20,12 @@ html {
 
 article {
   max-width: 43em;
+  padding-left: .5rem;
 }
 
 article h1 {
   font-weight: normal;
+  margin: 1em 0 0;
 }
 
 article header {
@@ -32,18 +34,25 @@ article header {
 
 article header p {
   font-style: italic;
+  margin-top: 0;
 }
 
 article > p:last-child {
   border-bottom: 1px solid #999;
+  padding-bottom: 1em;
 }
 
 blockquote {
   max-width: 24em;
   color: #555;
   font-size: 1.125rem;
+  margin: 1em 0;
 }
 
 .quote {
   color: #999;
+}
+
+article ol {
+  padding-left: 1rem;
 }
