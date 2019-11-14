@@ -11,6 +11,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   font-family: 'Crimson Text', serif;
+  font: normal 100%/1.3 serif;
   color: #222;
 }
 
@@ -61,11 +62,45 @@ article ol {
 
   html {
     font-size: 110%;
-    line-height: 1.5;
+    line-height: 1.4;
   }
 
   blockquote {
-    padding-left: 3em;
-    max-width: 26em;
+    padding-left: 2em;
+    max-width: 27em;
   }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    line-height: 1.5;
+  }
+
+  body {
+    display: flex;
+    justify-content: center;
+  }
+
+  article {
+    padding: 0 1.5em;
+  }
+
+  article ol {
+    padding-left: 0;
+  }
+
+  blockquote {
+    padding-left: 5em;
+    max-width: 30em;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 120%;
+  }
+
 }
