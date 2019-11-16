@@ -30,7 +30,7 @@ article {
 
 article h1 {
   font-weight: normal;
-  margin: .75em 0 0;
+  margin: 1.3rem 0 0;
 }
 
 article header {
@@ -40,11 +40,13 @@ article header {
 article header p {
   font-style: italic;
   margin-top: 0;
-  margin-bottom: 1.5em;
+  margin-bottom: 1.3em;
+  padding: 0;
 }
 
 article p {
   padding: 0;
+  margin: 1.3rem 0;
 }
 
 article > p:last-child {
@@ -79,6 +81,14 @@ article ol {
     max-width: 27em;
   }
 
+  article header p {
+    margin-bottom: 1.4em;
+  }
+
+  article p {
+    margin: 1.4rem 0;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -104,6 +114,14 @@ article ol {
   blockquote {
     padding-left: 5em;
     max-width: 30em;
+  }
+
+  article header p {
+    margin-bottom: 1.5em;
+  }
+
+  article p {
+    margin: 1.5rem 0;
   }
 
 }
